@@ -160,7 +160,7 @@ echo "
       <h2>Jugador 1</h2>
 ";
         //unimos los arrays para tener 3 dimensiones
-        $numeroCartones=3;
+        $numeroCartones=4;
         $jugadores[0]=generarCartones(1,$numeroCartones);
         $contadores[0]=Contador($numeroCartones);
 echo "
@@ -169,7 +169,7 @@ echo "
       <h2>Jugador 2</h2>
 ";
         // lo mismo para el jugador 2
-        $numeroCartones=3;
+        $numeroCartones=2;
         $jugadores[1]=generarCartones(2,$numeroCartones);
         $contadores[1]=Contador($numeroCartones);
 
@@ -179,7 +179,7 @@ echo "
         <h2>Jugador 3</h2>
   ";
       // lo mismo para el jugador 3
-        $numeroCartones=3;
+        $numeroCartones=5;
         $jugadores[2]=generarCartones(3,$numeroCartones);
         $contadores[2]=Contador($numeroCartones);
     echo "
@@ -188,7 +188,7 @@ echo "
           <h2>Jugador 4</h2>
     ";
       // lo mismo para el jugador 4
-        $numeroCartones=3;
+        $numeroCartones=2;
         $jugadores[3]= generarCartones(4,$numeroCartones);
         $contadores[3]=Contador($numeroCartones);
 echo "
